@@ -30,9 +30,9 @@ has policy_version => (
 );
 
 has filename => (
-    is       => 'ro',
-    isa      => NonEmptyStr,
-                 default => 'CODE_OF_CONDUCT.md',
+    is      => 'ro',
+    isa     => NonEmptyStr,
+    default => 'CODE_OF_CONDUCT.md',
 );
 
 around plugin_from_config => sub( $orig, $class, $name, $args, $section ) {
