@@ -17,7 +17,7 @@ use namespace::autoclean;
 
 use experimental qw( postderef signatures );
 
-has policy_args => (
+has _policy_args => (
     is      => 'ro',
     isa     => HashRef,
     default => sub { {} },
@@ -40,10 +40,11 @@ around plugin_from_config => sub( $orig, $class, $name, $args, $section ) {
 
     for my $key ( keys $args->%* ) {
         if ( $key =~ s/^-// ) {
+            die "$key cannot be set" if $key eq "_policy_args";
             $module_args{$key} = $args->{"-$key"};
         }
         else {
-            $module_args{policy_args}{$key} = $args->{$key};
+            $module_args{_policy_args}{$key} = $args->{$key};
         }
     }
 
@@ -54,7 +55,7 @@ sub gather_files($self) {
 
     my $zilla = $self->zilla;
 
-    my %args = $self->policy_args->%*;
+    my %args = $self->_policy_args->%*;
 
     my ($author) = Email::Address->parse( $zilla->distmeta->{author}[0] );
 
