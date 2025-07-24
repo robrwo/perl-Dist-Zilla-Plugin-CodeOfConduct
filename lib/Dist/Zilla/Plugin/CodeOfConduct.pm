@@ -17,11 +17,49 @@ use namespace::autoclean;
 
 use experimental qw( postderef signatures );
 
-has _policy_args => (
-    is      => 'ro',
-    isa     => HashRef,
-    default => sub { {} },
-);
+=head1 SYNOPSIS
+
+    [CodeOfConduct]
+    -version = v0.4.0
+    policy   = Contributor_Covenant_1.4
+    name     = Perl-Project-Name
+    contact  = author@example.org
+    filename = CODE_OF_CONDUCT.md
+
+=head1 DESCRIPTION
+
+This is a L<Dist::Zilla> plugin to add a Code of Conduct to a distribution, using L<Software::Policy::CodeOfConduct>.
+
+=cut
+
+=head1 prepend:CONFIGURATION OPTIONS
+
+Any options that do not start with a hyphen (like "-version") will be passed to L<Software::Policy::CodeOfConduct>.
+
+=option name
+
+This is the name of the project.
+
+If you omit it, the distribution name will be used.
+
+=option contact
+
+This is a code of conduct contact. It can be a URL or e-mail address.
+
+If you omit it, the e-mail address of the first author will be used.
+
+=option policy
+
+This is the policy template that you want to use.
+
+If you omit it, the L<Software::Policy::CodeOfConduct/policy> default will be used.
+
+=option -version
+
+You can specify a minimum version of L<Software::Policy::CodeOfConduct>, in case you require a later version than the
+default (v0.4.0).
+
+=cut
 
 has version => (
     is      => 'ro',
@@ -29,10 +67,22 @@ has version => (
     default => 'v0.4.0',
 );
 
+=option filename
+
+This is the filename that the policy will be saved as.
+
+=cut
+
 has filename => (
     is      => 'ro',
     isa     => NonEmptyStr,
     default => 'CODE_OF_CONDUCT.md',
+);
+
+has _policy_args => (
+    is      => 'ro',
+    isa     => HashRef,
+    default => sub { {} },
 );
 
 around plugin_from_config => sub( $orig, $class, $name, $args, $section ) {
@@ -89,5 +139,30 @@ sub prune_files($self) {
         $self->zilla->prune_file($file) if $file->name eq $filename && $file->added_by !~ __PACKAGE__;
     }
 }
+
+=for Pod::Coverage plugin_from_config
+
+=for Pod::Coverage gather_files
+
+=for Pod::Coverage register_prereqs
+
+=for Pod::Coverage prune_files
+
+=head1 prepend:SUPPORT
+
+Only the latest version of this module will be supported.
+
+This module requires Perl v5.20 or later.  Future releases may only support Perl versions released in the last ten
+years.
+
+=head2 Reporting Bugs and Submitting Feature Requests
+
+=head1 append:SUPPORT
+
+If the bug you are reporting has security implications which make it inappropriate to send to a public issue tracker,
+then see F<SECURITY.md> for instructions how to report security vulnerabilities.
+
+=cut
+
 
 __PACKAGE__->meta->make_immutable;
