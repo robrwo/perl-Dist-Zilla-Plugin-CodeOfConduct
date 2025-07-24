@@ -13,12 +13,7 @@ my $tzil = Builder->from_config(
     { dist_root => 'does-not-exist' },
     {
         add_files => {
-            path( qw( source dist.ini ) ) => simple_ini(
-                ['GatherDir'],
-                [
-                    'CodeOfConduct',
-                ],
-            ),
+            path(qw( source dist.ini )) => simple_ini( ['GatherDir'], [ 'CodeOfConduct', ], ),
         }
     }
 );
