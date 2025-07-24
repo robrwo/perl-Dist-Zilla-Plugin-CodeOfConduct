@@ -11,7 +11,7 @@ use Email::Address 1.910;
 use MooseX::Types::Common::String qw( NonEmptyStr );
 use MooseX::Types::Moose          qw( HashRef );
 use MooseX::Types::Perl           qw( StrictVersionStr );
-use Software::Policy::CodeOfConduct v0.4.1;
+use Software::Policy::CodeOfConduct v0.4.0;
 
 use namespace::autoclean;
 
@@ -26,7 +26,7 @@ has policy_args => (
 has policy_version => (
     is      => 'ro',
     isa     => StrictVersionStr,
-    default => 'v0.4.1',
+    default => 'v0.4.0',
 );
 
 has filename => (

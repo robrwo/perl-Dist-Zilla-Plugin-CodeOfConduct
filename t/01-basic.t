@@ -30,7 +30,7 @@ cmp_deeply $tzil->distmeta->{prereqs},
   {
     develop => {
         requires => {
-            'Software::Policy::CodeOfConduct' => 'v0.4.1',
+            'Software::Policy::CodeOfConduct' => 'v0.4.0',
         }
     }
   },
