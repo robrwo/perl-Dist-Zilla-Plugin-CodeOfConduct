@@ -19,7 +19,7 @@ use namespace::autoclean;
 
 use experimental qw( postderef signatures );
 
-our $VERSION = 'v0.1.0';
+our $VERSION = 'v0.1.1';
 
 =head1 SYNOPSIS
 
