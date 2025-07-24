@@ -2,6 +2,8 @@ package Dist::Zilla::Plugin::CodeOfConduct;
 
 use v5.20;
 
+# ABSTRACT: add a Code of Conduct to a distribution
+
 use Moose;
 with qw( Dist::Zilla::Role::FileGatherer Dist::Zilla::Role::PrereqSource Dist::Zilla::Role::FilePruner );
 
