@@ -19,6 +19,8 @@ use namespace::autoclean;
 
 use experimental qw( postderef signatures );
 
+our $VERSION = 'v0.1.0';
+
 =head1 SYNOPSIS
 
     [CodeOfConduct]
