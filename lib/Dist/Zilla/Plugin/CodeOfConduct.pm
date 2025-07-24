@@ -23,7 +23,7 @@ has _policy_args => (
     default => sub { {} },
 );
 
-has policy_version => (
+has version => (
     is      => 'ro',
     isa     => StrictVersionStr,
     default => 'v0.4.0',
@@ -76,7 +76,7 @@ sub gather_files($self) {
 }
 
 sub register_prereqs($self) {
-    $self->zilla->register_prereqs( { phase => 'develop' }, "Software::Policy::CodeOfConduct" => $self->policy_version );
+    $self->zilla->register_prereqs( { phase => 'develop' }, "Software::Policy::CodeOfConduct" => $self->version );
     return;
 }
 
