@@ -4,6 +4,8 @@ Dist::Zilla::Plugin::CodeOfConduct - add a Code of Conduct to a distribution
 
 # SYNOPSIS
 
+In the `dist.ini`:
+
 ```
 [CodeOfConduct]
 -version = v0.4.0

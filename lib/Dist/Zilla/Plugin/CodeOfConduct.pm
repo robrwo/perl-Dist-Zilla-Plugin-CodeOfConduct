@@ -23,6 +23,8 @@ our $VERSION = 'v0.1.1';
 
 =head1 SYNOPSIS
 
+In the F<dist.ini>:
+
     [CodeOfConduct]
     -version = v0.4.0
     policy   = Contributor_Covenant_1.4
