@@ -28,6 +28,8 @@ Changes for version v0.1.1 (2025-08-03)
     - Improved SYNOPSIS.
 - Tests
     - Updated author tests.
+- Toolchain
+    - Improved Dist::Zilla config.
 
 See the `Changes` file for more details.
 

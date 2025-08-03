@@ -9,5 +9,8 @@ Release history for {{ $dist->name }}:
   [Tests]
   - Updated author tests.
 
+  [Toolchain]
+  - Improved Dist::Zilla config.
+
 v0.1.0    2025-07-24 23:53:39+01:00 Europe/London
   - Initial release.
