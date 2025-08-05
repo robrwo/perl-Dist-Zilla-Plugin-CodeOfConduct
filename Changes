@@ -6,6 +6,8 @@ Release history for {{ $dist->name }}:
 
   - Improved SYNOPSIS.
 
+  - Removed separate INSTALL file.
+
   [Tests]
   - Updated author tests.
 
