@@ -1,6 +1,8 @@
 Release history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Toolchain]
+  - Added a GitHub workflow to test the distribution.
 
 v0.1.1    2025-08-16 12:19:42+01:00 Europe/London
   [Documentation]
