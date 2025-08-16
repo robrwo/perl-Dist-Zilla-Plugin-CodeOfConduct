@@ -11,6 +11,8 @@ Release history for {{ $dist->name }}:
   [Tests]
   - Updated author tests.
 
+  - Moved author tests into xt.
+
   [Toolchain]
   - Improved Dist::Zilla config.
 

@@ -29,6 +29,7 @@ Changes for version v0.1.1 (2025-08-05)
     - Removed separate INSTALL file.
 - Tests
     - Updated author tests.
+    - Moved author tests into xt.
 - Toolchain
     - Improved Dist::Zilla config.
 
