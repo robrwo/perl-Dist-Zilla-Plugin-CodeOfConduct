@@ -1,6 +1,9 @@
 Release history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Tests]
+  - Added author tests.
+
   [Toolchain]
   - Added a GitHub workflow to test the distribution.
 
