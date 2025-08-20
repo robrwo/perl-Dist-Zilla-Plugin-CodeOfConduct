@@ -21,8 +21,10 @@ This is a [Dist::Zilla](https://metacpan.org/pod/Dist%3A%3AZilla) plugin to add 
 
 # RECENT CHANGES
 
-Changes for version v0.1.2 (2025-08-19)
+Changes for version v0.1.2 (2025-08-20)
 
+- Documentation
+    - Updated the SUPPORT section to clarify the minimum Perl version.
 - Tests
     - Added author tests.
 - Toolchain
@@ -88,8 +90,7 @@ For more information, see [How to install CPAN modules](https://www.cpan.org/mod
 
 Only the latest version of this module will be supported.
 
-This module requires Perl v5.20 or later.  Future releases may only support Perl versions released in the last ten
-years.
+This module requires Perl v5.20 or later, based on the minimum Perl supported by [Dist::Zilla](https://metacpan.org/pod/Dist%3A%3AZilla).
 
 ## Reporting Bugs and Submitting Feature Requests
 

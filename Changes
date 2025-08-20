@@ -1,6 +1,9 @@
 Release history for {{ $dist->name }}:
 
 {{$NEXT}}
+  [Documentation]
+  - Updated the SUPPORT section to clarify the minimum Perl version.
+
   [Tests]
   - Added author tests.
 
