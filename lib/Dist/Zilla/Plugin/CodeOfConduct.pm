@@ -167,6 +167,12 @@ This module requires Perl v5.20 or later, based on the minimum Perl supported by
 If the bug you are reporting has security implications which make it inappropriate to send to a public issue tracker,
 then see F<SECURITY.md> for instructions how to report security vulnerabilities.
 
+=head1 SEE ALSO
+
+L<Dist::Zilla::Plugin::ContributorCovenant>
+
+L<Software::Policy::CodeOfConduct>
+
 =cut
 
 

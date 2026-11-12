@@ -25,6 +25,7 @@ Changes for version v0.1.2 (2025-08-20)
 
 - Documentation
     - Updated the SUPPORT section to clarify the minimum Perl version.
+    - Added a SEE ALSO section for related modules.
 - Tests
     - Added author tests.
 - Toolchain
@@ -119,3 +120,9 @@ This software is copyright (c) 2025 by Robert Rothenberg.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+# SEE ALSO
+
+[Dist::Zilla::Plugin::ContributorCovenant](https://metacpan.org/pod/Dist%3A%3AZilla%3A%3APlugin%3A%3AContributorCovenant)
+
+[Software::Policy::CodeOfConduct](https://metacpan.org/pod/Software%3A%3APolicy%3A%3ACodeOfConduct)
