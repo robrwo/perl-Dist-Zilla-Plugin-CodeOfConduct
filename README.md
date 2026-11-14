@@ -33,6 +33,7 @@ Changes for version v0.1.2 (2025-08-20)
     - Added author tests.
 - Toolchain
     - Added a GitHub workflow to test the distribution.
+    - Sign distributions with sigstore instead of Module::Signature.
 
 See the `Changes` file for more details.
 
