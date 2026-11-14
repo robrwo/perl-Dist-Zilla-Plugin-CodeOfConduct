@@ -26,6 +26,7 @@ Changes for version v0.1.2 (2025-08-20)
 - Documentation
     - Updated the SUPPORT section to clarify the minimum Perl version.
     - Added a SEE ALSO section for related modules.
+    - Updated copyright year.
 - Tests
     - Added author tests.
 - Toolchain
@@ -116,7 +117,7 @@ Robert Rothenberg <rrwo@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2025 by Robert Rothenberg.
+This software is copyright (c) 2025-2026 by Robert Rothenberg.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

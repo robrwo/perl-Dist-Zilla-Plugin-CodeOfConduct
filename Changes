@@ -6,6 +6,8 @@ Release history for {{ $dist->name }}:
 
   - Added a SEE ALSO section for related modules.
 
+  - Updated copyright year.
+
   [Tests]
   - Added author tests.
 
