@@ -28,6 +28,7 @@ Changes for version v0.1.2 (2025-08-20)
     - Added a SEE ALSO section for related modules.
     - Updated copyright year.
     - Updated maintainer email address.
+    - Add doap.xml.
 - Tests
     - Added author tests.
 - Toolchain

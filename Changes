@@ -10,6 +10,8 @@ Release history for {{ $dist->name }}:
 
   - Updated maintainer email address.
 
+  - Add doap.xml.
+
   [Tests]
   - Added author tests.
 
