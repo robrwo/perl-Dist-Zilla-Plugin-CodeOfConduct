@@ -35,6 +35,7 @@ Changes for version v0.1.2 (2025-08-20)
     - Added a GitHub workflow to test the distribution.
     - Sign distributions with sigstore instead of Module::Signature.
     - Static installs are enabled.
+    - Updated Dist::Zilla configuration.
 
 See the `Changes` file for more details.
 
