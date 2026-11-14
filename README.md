@@ -27,6 +27,7 @@ Changes for version v0.1.2 (2025-08-20)
     - Updated the SUPPORT section to clarify the minimum Perl version.
     - Added a SEE ALSO section for related modules.
     - Updated copyright year.
+    - Updated maintainer email address.
 - Tests
     - Added author tests.
 - Toolchain
@@ -113,7 +114,7 @@ and may be cloned from [git://github.com/robrwo/perl-Dist-Zilla-Plugin-CodeOfCon
 
 # AUTHOR
 
-Robert Rothenberg <rrwo@cpan.org>
+Robert Rothenberg <perl@rhizomnic.com>
 
 # COPYRIGHT AND LICENSE
 

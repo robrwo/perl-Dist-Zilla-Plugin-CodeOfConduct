@@ -8,6 +8,8 @@ Release history for {{ $dist->name }}:
 
   - Updated copyright year.
 
+  - Updated maintainer email address.
+
   [Tests]
   - Added author tests.
 
