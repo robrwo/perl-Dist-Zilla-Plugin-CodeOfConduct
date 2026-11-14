@@ -12,6 +12,8 @@ Release history for {{ $dist->name }}:
 
   - Add doap.xml.
 
+  - Fixed SOURCE URL in the README.
+
   [Tests]
   - Added author tests.
 

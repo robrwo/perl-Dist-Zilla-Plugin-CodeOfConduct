@@ -29,6 +29,7 @@ Changes for version v0.1.2 (2025-08-20)
     - Updated copyright year.
     - Updated maintainer email address.
     - Add doap.xml.
+    - Fixed SOURCE URL in the README.
 - Tests
     - Added author tests.
 - Toolchain
@@ -114,7 +115,7 @@ then see `SECURITY.md` for instructions how to report security vulnerabilities.
 # SOURCE
 
 The development version is on github at [https://github.com/robrwo/perl-Dist-Zilla-Plugin-CodeOfConduct](https://github.com/robrwo/perl-Dist-Zilla-Plugin-CodeOfConduct)
-and may be cloned from [git://github.com/robrwo/perl-Dist-Zilla-Plugin-CodeOfConduct.git](git://github.com/robrwo/perl-Dist-Zilla-Plugin-CodeOfConduct.git)
+and may be cloned from [https://github.com/robrwo/perl-Dist-Zilla-Plugin-CodeOfConduct.git](https://github.com/robrwo/perl-Dist-Zilla-Plugin-CodeOfConduct.git)
 
 # AUTHOR
 
