@@ -21,7 +21,7 @@ This is a [Dist::Zilla](https://metacpan.org/pod/Dist%3A%3AZilla) plugin to add 
 
 # RECENT CHANGES
 
-Changes for version v0.1.2 (2025-08-20)
+Changes for version v0.1.2 (2026-11-14)
 
 - Documentation
     - Updated the SUPPORT section to clarify the minimum Perl version.
